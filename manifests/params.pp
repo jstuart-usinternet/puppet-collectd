@@ -39,7 +39,7 @@ class collectd::params {
     'Debian': {
       $package_name       = ['collectd', 'collectd-core']
       $package_provider   = 'apt'
-      $collectd_dir       = '/etc/collectd'
+      $collectd_dir       = '/usr/etc/collectd'
       $plugin_conf_dir    = "${collectd_dir}/conf.d"
       $service_name       = 'collectd'
       $config_file        = "${collectd_dir}/collectd.conf"
